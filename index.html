@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ハートタイプ診断</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>ハートタイプ診断</h1>
+
+<!-- ▼ スタート画面 ▼ -->
+<div id="startScreen" class="start-screen">
+  <p class="lead">あなたのハートタイプはどれ？</p>
+
+  <div class="type-grid">
+    <img src="images/dream_chaser.png">
+    <img src="images/shadow_reader.png">
+    <img src="images/sound_player.png">
+    <img src="images/wanderer.png">
+    <img src="images/flame_heart.png">
+    <img src="images/serenity.png">
+    <img src="images/dream_guide.png">
+    <img src="images/influencer.png">
+  </div>
+
+  <button id="startBtn" class="start-btn">診断をはじめる</button>
+</div>
+
+<!-- ▼ 質問エリア（最初は隠す） ▼ -->
+<div id="quiz" style="display:none;"></div>
+
+<!-- ▼ 結果エリア（最初は隠す） ▼ -->
+<div id="result" class="result" style="display:none;"></div>
+
+
+
+<!-- ▼ 非表示の広告枠（審査用） ▼ -->
+<div class="ad-wrapper" style="display:none;">
+  <ins class="adsbygoogle"
+      style="display:block"
+      data-ad-client="ca-pub-XXXXXXX"
+      data-ad-slot="YYYYYYY"
+      data-ad-format="auto"
+      data-full-width-responsive="true"></ins>
+</div>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
+
+<!-- ▼ JavaScript読み込み（アプリ本体） ▼ -->
+<script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
