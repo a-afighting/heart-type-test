@@ -168,12 +168,13 @@ a.share-btn:hover {
 }
 
 .footer {
-  margin-top: 40px;
+  margin-top: auto;   
   padding: 20px;
   text-align: center;
   font-size: 14px;
   color: #555;
 }
+
 
 .footer a {
   color: #555;
