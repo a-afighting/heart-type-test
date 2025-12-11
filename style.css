@@ -4,6 +4,11 @@ body {
   margin: 0;
   padding: 20px;
   color: #333;
+
+  /* ▼ フッター表示のため追加 ▼ */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 h1 {
